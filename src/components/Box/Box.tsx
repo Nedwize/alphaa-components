@@ -1,10 +1,10 @@
-import { ReactNode } from 'react';
+import * as React from 'react';
 import './box.css';
 
 export interface BoxProps {
   bg?: 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'danger';
   size?: 'small' | 'medium' | 'large';
-  children: ReactNode;
+  children: React.ReactNode;
   onClick?: () => void;
 }
 

@@ -1,0 +1,27 @@
+.form {
+  font-weight: bold;
+  width: 200px;
+  margin: 0 35px 20px;
+  height: 35px;
+  padding: 11px 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background: #f6f7f9;
+  color: #748194;
+  font-size: 14px;
+}
+
+/* Size Classes */
+.form-small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.form-medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.form-large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

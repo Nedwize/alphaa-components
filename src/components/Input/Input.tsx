@@ -1,3 +1,4 @@
+import * as React from 'react';
 import './input.css';
 
 export interface InputProps {
