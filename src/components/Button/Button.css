@@ -1,0 +1,61 @@
+.btn {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+/* Color Classes */
+.primary {
+  color: white;
+  /* background-color: #1ea7fd; */
+  background-color: #834fe2;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.success {
+  color: white;
+  background-color: #01b552;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.danger {
+  color: white;
+  background-color: #f4504e;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.info {
+  color: white;
+  background-color: #01bedc;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.warning {
+  color: white;
+  background-color: #fbac45;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+/* Size Classes */
+.btn-small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.btn-medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.btn-large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
