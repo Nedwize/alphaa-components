@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './box.css';
+import './Box.css';
 
 export interface BoxProps {
   bg?: 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'danger';
@@ -8,7 +8,7 @@ export interface BoxProps {
   onClick?: () => void;
 }
 
-export const Button: React.FC<BoxProps> = ({
+export const Box: React.FC<BoxProps> = ({
   bg = 'primary',
   size = 'medium',
   children,
